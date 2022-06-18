@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #000133;
+}
+
+.header,
+.footer {
+  background: #00022e;
+  height: 50px;
+  color: #fc86aa;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.drawer {
+  background: #d8dcd6;
+  width: 240px;
+}
+
+.main {
+  flex: 1;
+  background: #f7f5f5;
+}
+
+.top-item-list {
+  list-style: none;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+.top-item-list li {
+  display: inline-block;
+  border-right: 1px solid #bfbaba;
+  padding: 0 20px;
+}
+.top-item-list li:first-child {
+  padding-left: 0;
+}
+.top-item-list li:last-child {
+  border-right: 0;
+}
+
+.top-item-list li a {
+  text-decoration: none;
+}
